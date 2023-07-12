@@ -60,14 +60,18 @@ header .navbar {
   padding: 15px 30px;
 }
 
-.brand-logo {
+.brand-logo a {
   font-size: 2.2rem;
+  color: #fff;
 }
 
 .brand-logo span {
   color: #e55473;
 }
 
+.brand-logo a {
+  color: #111010;
+}
 .navbar-menu {
   list-style-type: none;
 }
@@ -261,6 +265,10 @@ footer {
   background-color: #111010;
   padding: 100px;
   text-align: center;
+  color: #fff;
+}
+
+footer > .brand-logo a {
   color: #fff;
 }
 
