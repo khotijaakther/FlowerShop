@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Flower-Shop</title>
-    <link rel="shortcut icon" href="flower-shop-assignment-main/flower-3197493_1280.webp" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/images/flower-3197493_1280.webp" type="image/x-icon">
+    <!--Include Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!--Include Stylesheet-->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <!--head end-->
 
+<!--body start-->
+
 <body>
-    <!--body start-->
-    <header>
-    <!--header end-->
-    </header>
+    <!--main section start-->
     <main>
-        <!--main section start-->
-        <div class="banner-section">
-            <!--banner-section start-->
-            <div class="banner-heading">
-                <h1 id="heading">Let's make <br> beautiful flowers a <br>part of your life.</h1>
+        <!--banner-section start-->
+        <div class="banner-section" id="banner">
+            <div class="banner-content">
+                <h1 class="banner-heading">Let's make <br> beautiful flowers a <br>part of your life.</h1>
                 <br>
                 <p id="content">It is a long establish face that a reader will be distracted by the readable <br>
                     content of page when looking it's layout. The point of using lorem Ipsum is <br> that it has a
@@ -30,10 +34,110 @@
                 <button class="primary-btn">Shop Now</button>
             </div>
             <div class="banner-image">
-                <img src="flower-shop-assignment-main/Flower Asset/pngwing 10.png" alt="banner-img">
+                <img src="./assets/images/Flower Asset/pngwing 10.png" alt="banner-img">
             </div>
         </div>
+        <!--banner-section close-->
+        <!--featured section start-->
+        <section class="featured-section" id="features">
+            <div class="section-content">
+                <h2 class="section-title">Our Featured Flower</h2>
+                <P class="section-details">It is a long established fact that a reader will be distracted by the
+                    readable <br> content of a page when looking at it's layout.</P>
+            </div>
+            <br>
+            <div class="features-content">
+                <div class="feature-inner">
+                    <img src="./assets/images/Flower Asset/pngwing 6.png" alt="pink-img">
+                    <h5 class="features-title">Pink Flower Tree<h5>
+                </div>
+                <div class="feature-inner">
+                    <img src="./assets/images//Flower Asset/pngwing 5.png" alt="red-img">
+                    <h5 class="features-title">Red Flower Tree</h5>
+                </div>
+                <div class="feature-inner">
+                    <img src="./assets/images//Flower Asset/pngwing 7.png" alt="yellow-img">
+                    <h5 class="features-title">Yellow Flower Tree</h5>
+                </div>
+            </div>
+        </section>
+        <!--featured section close-->
+
+        <!--Why Choose US section Start-->
+        <section class="why-us" id="why-us">
+            <div class="supper-section">
+                <img src="./assets/images/Flower Asset/Group 57.png" alt="Same Day Delivery. Click & Collect">
+                <h5 class="content-title">Same Day Delivery. Click & Collect.</h5>
+            </div>
+            <div class="supper-section">
+                <img src="./assets/images/Flower Asset/Group 58.png" alt="Fresh Flowers. Local Growers">
+                <h5 class="content-title">Fresh Flowers. Local Growers.</h5>
+            </div>
+            <div class="supper-section">
+                <img src="./assets/images/Flower Asset/Group 59.png" alt="24/7 Free Support">
+                <h5 class="content-title">24/7 Free Support.</h5>
+            </div>
+        </section>
+        <!--Why Choose US section Close-->
+
+        <!--Hot Deal Section Start-->
+        <section class="hot-deal" id="hot-deal">
+            <div class="hot-deal-inner">
+                <div class="hot-deal-details">
+                    <h2 class="title"> Hot Deal ! Sale Up To 25% <span>Off</span> </h2>
+                    <p class="details">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                    <button class="primary-btn"> Sign Up</button>
+                </div>
+                <div>
+                    <img src="./assets/images/Flower Asset/pngwing 8.png" alt="Hot Deal ! Sale Up To 25%">
+                </div>
+            </div>
+        </section>
+        <!--Hot Deal Section Close-->
+
+        <!--Instagram Post Section Start-->
+        <section class="instagram-post" id="instagram-post">
+            <div class="section-content">
+                <h2 class="section-title">Instagram</h2>
+                <P class="section-details">It is a long established fact that a reader will be distracted by the
+                    readable <br> content of a page when looking at its layout.</P>
+            </div>
+            <div class="instagram-post-content">
+                <img src="./assets/images/Flower Asset/Flower 01.png" alt="">
+                <img src="./assets/images/Flower Asset/Rectangle 4.png" alt="">
+                <img src="./assets/images/Flower Asset/Rectangle 5.png" alt="">
+                <img src="./assets/images/Flower Asset/Rectangle 6.png" alt="">
+            </div>
+        </section>
+        <!--Instagram Post Section Close-->
+
+        <!--News Letter Section Start-->
+        <section class="news-letter" id="news-letter">
+            <div class="section-content">
+                <h2 class="section-title">Get The Latest Deals</h2>
+                <P class="section-details">$30 coupon for first shopping</P>
+            </div>
+            <div class="news-letter-inner">
+                <input type="text" placeholder="Enter your email here.....">
+                <button class="primary-btn">Subscribe</button>
+            </div>
+        </section>
+        <!--News Letter Section Close-->
     </main>
+    <!--main section close-->
+    <!--Footer section Start-->
+    <footer id="footer">
+        <h2 class="footer-logo"><span>Flower</span>Shop</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page when
+            looking at its layout.</p>
+        <p class="copy-right">
+            @2020-2023, FlowerShop.com. All rights reserved.
+        </p>
+    </footer>
+    <!--Footer section Close-->
+
+
 </body>
 
 </html>

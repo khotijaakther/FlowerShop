@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.primary-btn {
+    border: 2px solid #E55473;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background-color: #E55473;
+    transition: 0.5s ease;
+}
+
+.primary-btn:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+.section-content {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.section-content>.section-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.section-content>.section-details {
+    color: gray;
+    font-size: 16px;
+}
+
+.banner-section {
+    background-color: #FCEEF1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 5rem 0 5rem;
+}
+
+.banner-section div {
+    width: 50%;
+}
+
+.banner-heading {
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #222121;
+}
+
+.features-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px 70px 80px;
+    text-align: center;
+}
+
+.features-content>.feature-inner {
+    flex-basis: 33.33%;
+    margin: 0px 56px;
+    text-align: center;
+}
+
+.features-content>.feature-inner>img {
+    height: 350px;
+    padding: 50px 30px 0px 30px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    object-fit: contain;
+}
+
+.features-content>.feature-inner:nth-child(1) img {
+    background-color: #F1DDE7;
+    border: 2px solid #F1DDE7;
+}
+
+.features-content>.feature-inner:nth-child(2) img {
+    background-color: #D9EFF0;
+    border: 2px solid #D9EFF0;
+}
+
+.features-content>.feature-inner:nth-child(3) img {
+    background-color: #E3EBDB;
+    border: 2px solid #E3EBDB;
+}
+
+.features-content>.feature-inner>.features-title {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.why-us {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-us>.supper-section {
+    width: 33.33%;
+    padding: 30px;
+    text-align: center;
+}
+
+.why-us>.supper-section>img {
+    width: 60px;
+}
+
+.why-us>.supper-section>.content-title {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222121;
+}
+
+.hot-deal {
+    background-color: #FDF6F8;
+    overflow-x: hidden;
+}
+
+.hot-deal>.hot-deal-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hot-deal>.hot-deal-inner>div {
+    width: 50%;
+}
+.hot-deal>.hot-deal-inner> .hot-deal-details > .title {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+.hot-deal>.hot-deal-inner> .hot-deal-details > .title span{
+    color: #E55473;
+}
+.hot-deal>.hot-deal-inner> .hot-deal-details > .details{
+    color: gray;
+    margin-bottom: 16px;
+}
+
+.hot-deal>.hot-deal-inner>div > img {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.instagram-post-content{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.instagram-post-content img{
+   width: 25%;
+   margin: 10px;
+   object-fit: contain;
+   border-radius: 5px;
+}
+.news-letter{
+    width: 80%;
+    margin: 50px auto;
+    padding: 25px 60px;
+    border-radius: 5px;
+    background-image: url('./../images/Flower Asset/Rectangle 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.news-letter > .news-letter-inner{
+    margin: 50px 0;
+}
+.news-letter > .news-letter-inner input{
+   width: 40%;
+   line-height: 25px;
+   border: 1px transparent;
+   outline: none;
+   border-radius: 8px;
+   margin-right: 15px;
+   padding: 10px 20px;
+}
+
+footer{
+   background-color: #111010; 
+   padding: 100px;
+   text-align: center;
+   color: #fff;
+}
+
+footer > .footer-logo{
+    font-size: 2.5rem;
+}
+footer > .footer-logo span{
+   color: #E55473;
+}
+footer > p{
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 300;
+  color: gray;
+}
+footer .copy-right{
+    font-size: 12px;
+}
